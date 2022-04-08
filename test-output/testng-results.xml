@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="19652" started-at="2021-12-16T15:19:26 IST" finished-at="2021-12-16T15:19:45 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="19652" started-at="2021-12-16T15:19:26 IST" finished-at="2021-12-16T15:19:45 IST">
+      <class name="com.atipune.testng.basic.ExtendReportsEx">
+        <test-method status="PASS" signature="setUpExtentEnv()[pri:0, instance:com.atipune.testng.basic.ExtendReportsEx@7d70d1b1]" name="setUpExtentEnv" is-config="true" duration-ms="235" started-at="2021-12-16T15:19:26 IST" finished-at="2021-12-16T15:19:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpExtentEnv -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.atipune.testng.basic.ExtendReportsEx@7d70d1b1]" name="openBrowser" is-config="true" duration-ms="18458" started-at="2021-12-16T15:19:26 IST" finished-at="2021-12-16T15:19:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="register(java.lang.reflect.Method)[pri:0, instance:com.atipune.testng.basic.ExtendReportsEx@7d70d1b1]" name="register" is-config="true" duration-ms="7" started-at="2021-12-16T15:19:44 IST" finished-at="2021-12-16T15:19:44 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.atipune.testng.basic.ExtendReportsEx.varifyFirstBookTitle()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register -->
+        <test-method status="PASS" signature="varifyFirstBookTitle()[pri:0, instance:com.atipune.testng.basic.ExtendReportsEx@7d70d1b1]" name="varifyFirstBookTitle" duration-ms="86" started-at="2021-12-16T15:19:44 IST" finished-at="2021-12-16T15:19:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- varifyFirstBookTitle -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atipune.testng.basic.ExtendReportsEx@7d70d1b1]" name="tearDown" is-config="true" duration-ms="6" started-at="2021-12-16T15:19:45 IST" finished-at="2021-12-16T15:19:45 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=varifyFirstBookTitle status=SUCCESS method=ExtendReportsEx.varifyFirstBookTitle()[pri:0, instance:com.atipune.testng.basic.ExtendReportsEx@7d70d1b1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="register(java.lang.reflect.Method)[pri:0, instance:com.atipune.testng.basic.ExtendReportsEx@7d70d1b1]" name="register" is-config="true" duration-ms="0" started-at="2021-12-16T15:19:45 IST" finished-at="2021-12-16T15:19:45 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.atipune.testng.basic.ExtendReportsEx.varifyHomePage()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register -->
+        <test-method status="PASS" signature="varifyHomePage()[pri:0, instance:com.atipune.testng.basic.ExtendReportsEx@7d70d1b1]" name="varifyHomePage" duration-ms="7" started-at="2021-12-16T15:19:45 IST" finished-at="2021-12-16T15:19:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- varifyHomePage -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atipune.testng.basic.ExtendReportsEx@7d70d1b1]" name="tearDown" is-config="true" duration-ms="0" started-at="2021-12-16T15:19:45 IST" finished-at="2021-12-16T15:19:45 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=varifyHomePage status=SUCCESS method=ExtendReportsEx.varifyHomePage()[pri:0, instance:com.atipune.testng.basic.ExtendReportsEx@7d70d1b1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="register(java.lang.reflect.Method)[pri:0, instance:com.atipune.testng.basic.ExtendReportsEx@7d70d1b1]" name="register" is-config="true" duration-ms="0" started-at="2021-12-16T15:19:45 IST" finished-at="2021-12-16T15:19:45 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.atipune.testng.basic.ExtendReportsEx.varifyNewArrivalsDisplayed()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register -->
+        <test-method status="PASS" signature="varifyNewArrivalsDisplayed()[pri:0, instance:com.atipune.testng.basic.ExtendReportsEx@7d70d1b1]" name="varifyNewArrivalsDisplayed" duration-ms="255" started-at="2021-12-16T15:19:45 IST" finished-at="2021-12-16T15:19:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- varifyNewArrivalsDisplayed -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atipune.testng.basic.ExtendReportsEx@7d70d1b1]" name="tearDown" is-config="true" duration-ms="0" started-at="2021-12-16T15:19:45 IST" finished-at="2021-12-16T15:19:45 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=varifyNewArrivalsDisplayed status=SUCCESS method=ExtendReportsEx.varifyNewArrivalsDisplayed()[pri:0, instance:com.atipune.testng.basic.ExtendReportsEx@7d70d1b1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="cleanup()[pri:0, instance:com.atipune.testng.basic.ExtendReportsEx@7d70d1b1]" name="cleanup" is-config="true" duration-ms="521" started-at="2021-12-16T15:19:45 IST" finished-at="2021-12-16T15:19:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanup -->
+        <test-method status="PASS" signature="browseTeardown()[pri:0, instance:com.atipune.testng.basic.ExtendReportsEx@7d70d1b1]" name="browseTeardown" is-config="true" duration-ms="723" started-at="2021-12-16T15:19:45 IST" finished-at="2021-12-16T15:19:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browseTeardown -->
+      </class> <!-- com.atipune.testng.basic.ExtendReportsEx -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
